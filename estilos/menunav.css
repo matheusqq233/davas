@@ -1,0 +1,173 @@
+
+
+
+h5 {
+    position: relative;
+            font-size: 26px;
+       
+            margin-top:-56px;
+            margin-left:1105px;
+         
+            margin-bottom:10px;
+        }
+
+
+
+.thumbnail-container {
+    position: relative;
+}
+
+.thumbnail-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff; /* Change the text color to your preference */
+}
+
+.text1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.text2 {
+    font-size: 18px;
+}
+
+.title {
+     text-align:center;/* Adjust as needed */
+    font-family: 'Oswald', sans-serif;
+    font-size: 42px; /* Adjust as needed */
+    color: #FFE59A; /* Change the color to your preference */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a shadow (adjust values as needed) */
+    margin-bottom: 40px; /* Adjust as needed */
+}
+
+button {
+            position: absolute;
+            margin-left: 1310px;
+            margin-top: -19px;
+            background: none;
+            border: none;
+            font-size: 40px;
+            color: #333; /* Cor do ícone */
+            cursor: pointer; /* Adicione cursor pointer para indicar que é clicável */
+            margin-bottom: -40px; /* Corrija o nome da propriedade para margin-bottom */
+        }
+
+        button:hover {
+            color: #facc44; /* Cor ao passar o mouse, ajuste conforme necessário */
+        }
+
+    .menu-options {
+    display: none;
+    position: absolute;
+    background-color: #333; /* Cor de fundo preta */
+    color: #fff; /* Cor do texto branco */
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+    margin-left:1150px;
+    margin-top:50px;
+}
+
+.menu-options li {
+    margin-bottom: 5px;
+}
+
+.menu-options a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.menu-options a:hover {
+    text-decoration: underline;
+}
+
+h3 {
+    position: relative;
+    margin-left:1200px;
+    margin-top:-118px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333; /* Cor do texto */
+    text-align: center; /* Centralizar o texto */
+    margin-bottom: -16px; /* Espaçamento na parte inferior */
+}
+
+h4 {
+    margin-left:00px;
+    margin-top:-150px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333; /* Cor do texto */
+    text-align: center; /* Centralizar o texto */
+    margin-bottom: -16px; /* Espaçamento na parte inferior */
+}
+
+
+#page {
+    position: relative;
+    min-height: 100vh;
+    z-index: 2;
+}
+
+#banner {
+    margin-top: -140px;
+    text-align: center;
+    background: url('img/LogoSample_ByTailorBrands.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin-left: 820px;
+    position: fixed;
+    z-index: 1;
+}
+#newsFunctions {
+    display: none;
+    position: absolute;
+    background-color: #333; /* Cor de fundo preta */
+    color: #fff; /* Cor do texto branco */
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+    margin-left: 1150px;
+    margin-top: 50px;
+    border-radius: 5px; /* Adicione borda arredondada */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Adicione sombra */
+}
+
+#newsFunctions li {
+    margin-bottom: 8px; /* Aumente o espaçamento entre itens */
+}
+
+#newsFunctions a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    display: block; /* Transforme o link em bloco para melhor espaçamento */
+    padding: 5px 0; /* Adicione espaçamento interno */
+}
+
+#newsFunctions a:hover {
+    text-decoration: underline;
+    background-color: rgba(255, 255, 255, 0.1); /* Adicione destaque ao passar o mouse */
+}
+
+.menu-buttonnews {
+    position: absolute;
+            margin-left: 1693px;
+            margin-top: 107px;
+            background: none;
+            border: none;
+            font-size: 40px;
+            color: #333; /* Cor do ícone */
+            cursor: pointer; /* Adicione cursor pointer para indicar que é clicável */
+            margin-bottom: -40px; /* Corrija o nome da propriedade para margin-bottom */
+            z-index: 2;
+}
+
+.menu-buttonnews:hover {
+    color: #facc44;
+}
